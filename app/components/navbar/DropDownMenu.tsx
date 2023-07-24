@@ -38,21 +38,23 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
         </div>
       </div>
       {/* dropdown container */}
-      <div className=" flex flex-col lg:flex-row lg:justify-between gap-8 flex-1 md:gap-10 mt-6 lg:mt-12">
+      <div className=" flex flex-col md:flex-row md:justify-between gap-8 flex-1 md:gap-10 mt-6 lg:mt-12">
         {/* user */}
-        <div className="flex flex-col items-center lg:items-start gap-2 text-[#141414]">
+        <div className="flex flex-col items-center md:items-start gap-2 text-[#141414]">
           <div className=" flex flex-row items-center gap-3">
-            <h2 className=" text-3xl sm:text-4xl font-semibold">
+            <h2 className=" text-3xl md:text-xl lg:text-4xl font-semibold">
               Sheikh Ahmed
             </h2>
             <hr className="w-10 bg-[#F64749] h-[2px]" />
           </div>
-          <p className="text-xl">Product Designer</p>
+          <p className="text-xl md:text-base lg:text-xl">Product Designer</p>
         </div>
         {/* menu item */}
-        <div className=" flex flex-col items-center lg:items-start gap-4">
+        <div className=" flex flex-col items-center md:items-start gap-4">
           <div className=" flex flex-row items-center gap-2">
-            <h6 className="text-[#AFAFAF] text-xl font-medium">Menu</h6>
+            <h6 className="text-[#AFAFAF] text-xl md:text-base lg:text-xl font-medium">
+              Menu
+            </h6>
             <hr className="w-5 bg-[#F64749] h-[2px]" />
           </div>
           <MenuItem
@@ -76,8 +78,8 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
         {/* user info */}
         <div className=" flex flex-col">
           <div className=" flex flex-col gap-5">
-            <div className=" flex flex-row justify-center lg:justify-end items-center gap-2">
-              <p className=" text-base font-medium underline">
+            <div className=" flex flex-row justify-center md:justify-end items-center gap-2">
+              <p className=" text-base md:text-sm lg:text-base font-medium underline">
                 shikh001@gmail.com
               </p>
               <Image
@@ -87,8 +89,10 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
                 height="18"
               />
             </div>
-            <div className=" flex flex-row justify-center lg:justify-end items-center gap-2">
-              <p className=" text-base font-medium">Download CV</p>
+            <div className=" flex flex-row justify-center md:justify-end items-center gap-2">
+              <p className="text-base md:text-sm lg:text-base font-medium">
+                Download CV
+              </p>
               <Image
                 src="/icons/download.svg"
                 alt="download"
@@ -96,7 +100,7 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
                 height="18"
               />
             </div>
-            <div className=" mt-1 lg:mt-8 flex flex-row justify-center lg:justify-end items-center gap-4">
+            <div className=" mt-1 lg:mt-8 flex flex-row justify-center md:justify-end items-center gap-4">
               <Image
                 src="/icons/linkedin.svg"
                 alt="linkedin"

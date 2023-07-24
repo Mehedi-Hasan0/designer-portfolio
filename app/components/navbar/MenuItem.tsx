@@ -20,7 +20,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ onClick, label, isActive }) => {
       onClick={onClick}
       className={` ${
         isActive ? "flex flex-row items-center gap-2" : ""
-      } text-lg font-medium cursor-pointer`}
+      } text-lg md:text-sm lg:text-lg font-medium cursor-pointer`}
     >
       {isActive ? <hr className=" bg-[#F64749] w-5 h-[2px]" /> : null}
       <p
