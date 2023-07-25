@@ -31,7 +31,7 @@ const Article = () => {
           />
         </div>
       </section>
-      <hr className=" h-[1px] bg-[#C2C2C2]  mb-10 md:mb-16 2xl:mb-28" />
+      <hr className=" h-[1px] bg-[#C2C2C2]" />
     </>
   );
 };
