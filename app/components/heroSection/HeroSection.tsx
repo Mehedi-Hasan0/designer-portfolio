@@ -10,7 +10,7 @@ const HeroSection = () => {
       <div className="absolute top-0 left-0 z-10">
         <Blur />
       </div>
-      <section className=" pt-28 pb-20">
+      <section className=" pt-28 mb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 sm:gap-3 md:gap-10 xl:gap-20 mx-auto">
           {/* text section */}
           <div>
@@ -90,37 +90,45 @@ const HeroSection = () => {
             <div className=" mx-auto">
               <HeroImage />
             </div>
-            <div className=" flex flex-row justify-center sm:justify-end md:justify-center gap-4 mt-6">
-              <p>Follow me on:</p>
+            <div className=" flex flex-row justify-center sm:justify-end md:justify-center gap-4 mt-6 items-center md:ml-16 lg:ml-24 xl:ml-32 2xl:ml-56">
+              <p className=" text-xs lg:text-sm">Follow me on:</p>
               <div className=" flex flex-row items-center gap-4">
-                <Image
-                  src="/linkedin 1.svg"
-                  alt="linkedin"
-                  width="20"
-                  height="20"
-                  className=" cursor-pointer"
-                />
-                <Image
-                  src="/medium (1).svg"
-                  alt="meduim"
-                  width="24"
-                  height="24"
-                  className=" cursor-pointer"
-                />
-                <Image
-                  src="/behance 3.svg"
-                  alt="behance"
-                  width="24"
-                  height="24"
-                  className=" cursor-pointer"
-                />
-                <Image
-                  src="/instragram 1.svg"
-                  alt="instragram"
-                  width="20"
-                  height="20"
-                  className=" cursor-pointer"
-                />
+                <div className=" w-3 h-3 2xl:w-5 2xl:h-5 relative">
+                  <Image
+                    src="/linkedin 1.svg"
+                    alt="linkedin"
+                    layout="fill"
+                    objectFit="cover"
+                    className=" cursor-pointer"
+                  />
+                </div>
+                <div className=" w-4 h-4 2xl:w-6 2xl:h-6 relative">
+                  <Image
+                    src="/medium (1).svg"
+                    alt="meduim"
+                    layout="fill"
+                    objectFit="cover"
+                    className=" cursor-pointer"
+                  />
+                </div>
+                <div className=" w-4 h-4 2xl:w-6 2xl:h-6 relative">
+                  <Image
+                    src="/behance 3.svg"
+                    alt="behance"
+                    layout="fill"
+                    objectFit="cover"
+                    className=" cursor-pointer"
+                  />
+                </div>
+                <div className=" w-3 h-3 2xl:w-5 2xl:h-5 relative">
+                  <Image
+                    src="/instragram 1.svg"
+                    alt="instragram"
+                    layout="fill"
+                    objectFit="cover"
+                    className=" cursor-pointer"
+                  />
+                </div>
               </div>
             </div>
           </div>
