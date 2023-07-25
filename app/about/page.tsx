@@ -1,8 +1,13 @@
+import AboutHeroSection from "../components/AboutHeroSection/AboutHeroSection";
+import Container from "../components/Container";
+
 const About = () => {
   return (
-    <div className=" pt-28 pb-20">
-      <p>This is ABOUT page</p>
-    </div>
+    <main className="mx-auto max-w-3xl md:max-w-5xl lg:max-w-7xl xl:max-w-[2520px] relative -z-10">
+      <Container>
+        <AboutHeroSection />
+      </Container>
+    </main>
   );
 };
 
