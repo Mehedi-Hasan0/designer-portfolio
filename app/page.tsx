@@ -1,3 +1,4 @@
+import Article from "./components/article/Article";
 import Container from "./components/Container";
 import GallerySection from "./components/gallerySection/GallerySection";
 import HeroSection from "./components/heroSection/HeroSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <Services />
       <Container>
         <GallerySection />
+        <Article />
       </Container>
     </main>
   );
