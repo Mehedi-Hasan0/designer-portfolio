@@ -15,6 +15,7 @@ const Logo = () => {
       onClick={() => {
         router.push("/");
       }}
+      className="cursor-pointer"
     />
   );
 };

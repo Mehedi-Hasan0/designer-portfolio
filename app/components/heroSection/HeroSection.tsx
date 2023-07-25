@@ -1,11 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import Blur from "../Blur";
 import HeroImage from "../HeroImage";
 
 const HeroSection = () => {
   return (
-    <>
+    <section className=" relative">
+      <div className="absolute top-0 left-0 z-10">
+        <Blur />
+      </div>
       <section className=" pt-28 pb-20">
         <div className="grid grid-cols-1 sm:grid-cols-2 items-center gap-8 sm:gap-3 md:gap-10 xl:gap-20 mx-auto">
           {/* text section */}
@@ -122,7 +126,10 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-    </>
+      <div className="absolute bottom-0 right-0 z-10">
+        <Blur />
+      </div>
+    </section>
   );
 };
 
