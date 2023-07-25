@@ -26,7 +26,7 @@ const UserMenu = () => {
         </div>
       </div>
       <div
-        className={` absolute left-0 top-0 translate duration-500 ${
+        className={` absolute left-0 top-0 translate duration-500 w-full ${
           isOpen ? "translate-y-0" : " -translate-y-full"
         } ${isOpen ? "opacity-100" : " opacity-0"}`}
       >

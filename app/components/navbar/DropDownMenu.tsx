@@ -27,7 +27,7 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
   if (!isOpen) return null;
 
   return (
-    <div className=" w-screen bg-[#FFFCFC] h-screen lg:h-[450px] border mx-auto xl:px-20 md:px-10 sm:px-2 px-4 shadow">
+    <div className=" bg-[#FFFCFC] h-screen lg:h-[450px] border mx-auto xl:px-20 md:px-10 sm:px-2 px-4 shadow">
       {/* close button */}
       <div className="flex flex-row-reverse justify-between pt-8 lg:pt-10">
         <div
