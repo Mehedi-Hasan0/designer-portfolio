@@ -38,7 +38,7 @@ const DropDownMenu: React.FC<DropDownMenu> = ({ isOpen, setIsOpen }) => {
         </div>
       </div>
       {/* dropdown container */}
-      <div className=" flex flex-col md:flex-row md:justify-between gap-8 flex-1 md:gap-10 mt-6 lg:mt-12">
+      <div className=" flex flex-col md:flex-row md:justify-between gap-8 flex-1 md:gap-10 mt-6 lg:mt-12 relative z-50">
         {/* user */}
         <div className="flex flex-col items-center md:items-start gap-2 text-[#141414]">
           <div className=" flex flex-row items-center gap-3">

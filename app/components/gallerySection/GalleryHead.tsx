@@ -8,7 +8,7 @@ const GalleryHead = () => {
     <div className=" flex flex-col justify-center items-center gap-2 md:gap-6 mt-5 text-[#141414]">
       {/* heading */}
       <div className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-semibold">
-        <div className="inline-block relative">
+        <div className="inline-block relative -z-10">
           <h1>Gallery</h1>
           <div className=" absolute top-1 -left-3 md:top-0 md:-left-5 2xl:top-3 2xl:-left-7">
             <div className=" relative w-5 h-5 md:w-7 md:h-7 lg:w-9 lg:h-9 2xl:w-12 2xl:h-12">
