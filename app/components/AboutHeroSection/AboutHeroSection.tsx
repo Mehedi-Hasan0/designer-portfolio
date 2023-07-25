@@ -98,6 +98,18 @@ const AboutHeroSection = () => {
       <div className="absolute bottom-0 right-0 z-10">
         <Blur />
       </div>
+      <div className=" md:flex justify-center pt-6 hidden">
+        <div className=" w-6 h-6">
+          <Image
+            src="/icons/bi_mouse.svg"
+            alt="mouse"
+            width={24}
+            height={24}
+            layout="responsive"
+            objectFit="contain"
+          />
+        </div>
+      </div>
     </section>
   );
 };
