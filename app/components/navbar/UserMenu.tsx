@@ -22,7 +22,16 @@ const UserMenu = () => {
           onClick={toggleOpen}
           className="bg-[#F64749] rounded-full p-2 xl:p-3 cursor-pointer hover:shadow-lg"
         >
-          <Image src="/icons/menubar.svg" width="24" height="24" alt="menu" />
+          <div className="relative w-4 h-4 md:w-6 md:h-6">
+            <Image
+              src="/icons/menubar.svg"
+              width={24}
+              height={24}
+              layout="responsive"
+              objectFit="contain"
+              alt="menu"
+            />
+          </div>
         </div>
       </div>
       <div
