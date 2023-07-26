@@ -7,7 +7,7 @@ const Logo = () => {
   const router = useRouter();
 
   return (
-    <div className=" relative w-8 h-5 md:w-[43px] md:h-[20px] mb-[6px] md:mb-0">
+    <div className=" relative w-8 h-5 md:w-[43px] md:h-[20px] mb-[6px] md:mb-[14px]">
       <Image
         src="/images/logo.png"
         width={43}
