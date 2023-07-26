@@ -1,5 +1,8 @@
 import AboutHeroSection from "../components/AboutHeroSection/AboutHeroSection";
 import AboutInfo from "../components/AboutHeroSection/AboutInfo";
+import ContactInfo from "../components/AboutHeroSection/ContactInfo";
+import ExploreCard from "../components/AboutHeroSection/ExploreCard";
+import PhotographyCard from "../components/AboutHeroSection/PhotographyCard";
 import Container from "../components/Container";
 
 const About = () => {
@@ -8,7 +11,10 @@ const About = () => {
       <Container>
         <AboutHeroSection />
         <AboutInfo />
+        <ExploreCard />
+        <PhotographyCard />
       </Container>
+      <ContactInfo />
     </main>
   );
 };

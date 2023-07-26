@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ExploreCard = () => {
   return (
-    <section>
+    <section className="md:my-20 my-10">
       <div className="flex flex-row items-center gap-3">
         <p className=" text-xl sm:text-2xl md:text-3xl xl:text-4xl font-semibold">
           Explore Sheikh
