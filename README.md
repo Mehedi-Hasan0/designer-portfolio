@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/)
+This is a [Next.js](https://nextjs.org/) project.
 
 ## [Designer Portfolio](https://designer-portfolio-sigma.vercel.app/)
 
