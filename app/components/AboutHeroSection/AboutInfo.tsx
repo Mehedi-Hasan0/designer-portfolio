@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ExploreCard from "./ExploreCard";
 
 const AboutInfo = () => {
   return (
@@ -366,6 +367,9 @@ const AboutInfo = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="md:pt-20 pt-10">
+        <ExploreCard />
       </div>
     </section>
   );
